@@ -1,0 +1,113 @@
+body{
+    background-image: url(anispic2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: right;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 3px 4px black ;
+}
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    margin: 15px 15px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 4vh;
+    color: white;
+    cursor: pointer;
+   font-weight: 30px;
+   padding: 3px 3px;
+}
+nav ul li a:hover{
+    display: block;
+    border-radius: 30px;
+    background-color: gray;
+    filter: drop-shadow(0 0 10px white);
+}
+.logo{
+    height: 0px;
+    width: 0px;
+    padding: 0%;
+    background: fixed;
+    border-radius: 20px;
+    border-color: brown;
+    background-color: blue;
+    color: blueviolet;
+}
+.logo:hover{
+    cursor: pointer;
+    transform: translateX(100px);
+    transition: 2s;
+}
+.clan{
+    color: rgb(73, 37, 52);
+    margin-top: 200px;
+    font-size: 9vh;
+    text-align: center;
+    text-shadow: 3px 4px 4px gray;
+}
+
+.btt{
+    margin-top: 120px;
+    text-align: center;
+    text-shadow: 3px 4px 4px gray;
+  
+}
+.g0{
+    background-color: blue;
+    border-radius: 30px;
+    padding: 15px 15px 15px 15px;
+    color:black;
+    border: none;
+    cursor: pointer;
+    
+}
+.g0.a{
+    text-decoration: none;
+}
+.g0:hover{
+    background-color: rgb(42, 49, 1);
+    
+}
+.g1{
+    background-color: green;
+    border-radius: 30px;
+    padding: 15px 15px 15px 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.g1:hover{
+ background-color:black;
+}
+.g2{
+    background-color: purple;
+    border-radius: 30px;
+    padding: 15px 15px 15px 15px;
+    border: none;
+    cursor: pointer;
+    
+}
+.g2:hover{
+    box-shadow: 2px 2px 3px 3px gray ;
+    background-color:dimgrey;
+}
